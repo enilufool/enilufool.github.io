@@ -8,13 +8,13 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
+title : enilu's blog
 tagline: Site Tagline
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
+  name : enilu
+  email : zhangtao54@gmail.com
+  github : enilu
+  twitter : enilu
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -25,7 +25,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://enilufool.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -132,3 +132,10 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
+
+# the size of per Page
+paginate: 10
+
+paginate_path: "/page:num/"
+#some customer parameters
+img_url: http://enilufool.github.io/assets/images
