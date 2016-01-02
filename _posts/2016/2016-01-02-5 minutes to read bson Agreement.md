@@ -1,6 +1,6 @@
 ---
 layout: post
-category : Quick Start Guide
+category : "Quick Start Guide"
 tags : [Big Data,Quick Start Guide]
 ---
 
