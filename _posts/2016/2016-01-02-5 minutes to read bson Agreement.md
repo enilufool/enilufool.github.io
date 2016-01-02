@@ -5,9 +5,10 @@ tags : [bigData, tutorial]
 ---
 
 NOSQL since 2010 has been developed for four years. One of the most fire Mongodb also been known, but he has been no opportunity to learn under this aspect, little time recently looked under Mongodb of bson agreement, under the guidance of my colleagues, sorted out for everyone to share. As for the concept of BSON I will not go into details, through google to query it.
-<-! Break ->
 
-{% Include JB / setup%}
+<!--break-->
+
+{% include JB/setup %}
 
 The following is written in java BSON binary data generated pseudo-code:
 

@@ -3,8 +3,10 @@ layout: post
 category : lessons 
 tags : [java, crawl, jsoup, tutorial]
 ---
+
 Jsoup is a opensource java library ，with it we can  craw and parse html easy and quickly,just like operater the dom with jquery.
 it designed so friendly  and we can use it easily. 
+
 <!--break-->
 
 {% include JB/setup %}
