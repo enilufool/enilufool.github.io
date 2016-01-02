@@ -86,7 +86,6 @@ look at the code with me
 
     html(String value)
 
-- Jsoup的API参见这里：http://jsoup.org/apidocs/
 - Jsoup packaging methods   parse Document and web standards DOM operation is very similar, even first-time use, by guessing almost a test of a method and effect desired.
 - A more detailed usage can be found here: http: //www.open-open.com/jsoup/
 - Jsoup  API can be found here: http: //jsoup.org/apidocs/
