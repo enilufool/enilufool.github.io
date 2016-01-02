@@ -41,14 +41,14 @@ The following is written in java BSON binary data generated pseudo-code:
     //Open BSON Protocol page: http: //bsonspec.org/spec.html, according to the page will bsonBytes to generate binary comment.
     
     bsonBytes = {
-    52, 0, 0, 0,  【 int32 is the total number of bytes comprising the document 52表示文档的总长度】
-    5,                   【"\x05" e_name binary Binary data，5表示表示e_name的类型是二进制的】
-    100, 97, 116, 97, 【:e_name:cstring byte*) "\x00",这里表示ename的主体】(字符串形式为：data)
-    0,                             【:e_name:cstring byte*) "\x00",ename以0结尾】
-    36, 0, 0, 0, 【int32 subtype (byte*)element主体 int32即36表示消息主体的长度】
-    0,                【int32 subtype (byte*)element主体 subtype 即0表示消息主体的类型微二进制：subtype ::= "\x00" Generic binary subtype】
+    52, 0, 0, 0,  【 int32 is the total number of bytes comprising the document 】
+    5,                   【"\x05" e_name binary Binary data】
+    100, 97, 116, 97, 【:e_name:cstring byte*) "\x00"】
+    0,                             【:e_name:cstring byte*) "\x00"】
+    36, 0, 0, 0, 【int32 subtype (byte*)】
+    0,                【int32 subtype (byte*) subtype ::= "\x00" Generic binary subtype】
     123, 0, 105, 0, 100, 0, 58, 0, 39, 0, 49, 0, 39, 0, 44, 0, 110,0, 97, 0, 109, 0, 101, 0,58, 0, 39, 0, 32, 95, 9, 78, 39, 0,125, 0,           【消息主体的二进制数据】(字符串形式为：{id:'1',name:'张三'})
-    0                 【document ::= int32 e_list "\x00" 文档主体以0结尾】
+    0                 【document ::= int32 e_list "\x00"】
     
     };
 
